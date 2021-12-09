@@ -1,0 +1,56 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+body {
+    background-color: dimgray;
+    color: white;
+    display: block;
+    padding-top: 70px;
+}
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 10px;
+}
+ul li {
+    padding: 0px 20px;
+}
+h1 {
+    color: white;
+    padding: 0px 20px;
+    
+    font-size: 2rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: greenyellow;
+}
+section {
+    padding: 20px;
+}
+.project_img {
+    width: 1000px;;
+}
+.skill_logo {
+    height: 100px;
+}
+img {
+    max-width: 100%;
+}
